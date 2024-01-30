@@ -1,0 +1,131 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.iphone_img {
+  padding-top: 60px;
+
+}
+.apple {
+  padding-left: 10px;
+}
+
+#features{
+  margin-top: 5px;
+  
+}
+
+.branding {
+  padding: 30px;
+  display: inline-flex;
+  gap: 20px; 
+}
+
+@media screen and (max-width: 1000px) {
+  .iphone_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .branding {
+    padding: 30px;
+    display: inline-flex;
+    gap: 20px; 
+    flex-direction: column;
+  }
+  
+  .img1 {
+    height: auto;
+    width: 200px;
+ 
+  
+  }
+  .img2 {
+    height: auto;
+    width: 200px;
+  
+  
+  }
+  .img3 {
+    height: auto;
+    width: 200px;
+
+  
+  }
+  .img4 {
+    height: auto;
+    width: 200px;
+  }
+  .text-button {
+    margin-bottom: 100px;
+
+  }
+}
+
+.img1 {
+  height: 30px;
+
+}
+.img2 {
+  height: 30px;
+
+}
+.img3 {
+  height: 30px;
+
+}
+.img4 {
+  height: 30px;
+
+}
+
+#testimonial {
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.dog-img {
+  display: block;
+  border-radius: 180px;
+  height: auto;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.text-body-secondary {
+  padding-left: 40px;
+}
+
+
+
+
+
+
+
+
